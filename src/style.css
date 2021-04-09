@@ -1,0 +1,45 @@
+:root {
+  --darkblue: hsl(243, 87%, 12%);
+  --desaturatedblue: hsl(238, 22%, 44%);
+  --brightblue: hsl(224, 93%, 58%);
+  --moderatecyan: hsl(170, 45%, 43%);
+  --greyblue: hsl(240, 75%, 98%);
+  --lightgrey: hsl(0, 0%, 75%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* ### Headings, Call-to-actions, Header Navigation
+font-family: 'Raleway', sans-serif;
+- Weights: 400, 700
+
+### Body
+font-family: 'Open Sans', sans-serif;
+- Weights: 400 */
+
+/* Attribution */
+.attribution {
+  color: black;
+  font-size: 11px;
+}
+
+.attribution a {
+  color: black;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  cursor: pointer;
+  color: grey;
+  font-weight: 700;
+}

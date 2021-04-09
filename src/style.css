@@ -14,9 +14,20 @@
 }
 
 body {
+  color: var(--darkblue);
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
+  line-height: 1.5;
+  max-width: 1440px;
+}
+
+h1,
+h2,
+h3,
+button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 
 /* ### Headings, Call-to-actions, Header Navigation
@@ -26,6 +37,64 @@ font-family: 'Raleway', sans-serif;
 ### Body
 font-family: 'Open Sans', sans-serif;
 - Weights: 400 */
+
+/* Nav Bar */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 5rem;
+}
+
+.nav-items {
+  display: flex;
+  gap: 3.5rem;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  padding: 2.5rem 5rem;
+}
+
+.hero-info h1 {
+  font-size: 38px;
+  margin-bottom: 1.5rem;
+}
+
+.hero-form {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-form input {
+  border: 1px solid #5c5c5c;
+  border-radius: 2.5px;
+  padding: 12px;
+  text-indent: 0.5rem;
+  width: 20rem;
+}
+
+.hero-form input::placeholder {
+  color: var(--lightgrey);
+}
+
+.hero-form .btn-get-started {
+  color: #fff;
+  background-color: var(--brightblue);
+  border: 1px solid var(--brightblue);
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2.5px;
+  padding: 12px 60px;
+}
+
+.hero-illustration {
+  width: 625px;
+}
 
 /* Attribution */
 .attribution {

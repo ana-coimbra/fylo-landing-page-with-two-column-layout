@@ -171,6 +171,42 @@ font-family: 'Open Sans', sans-serif;
 }
 
 /* Sign Up Section */
+.sign-up {
+  background-color: var(--desaturatedblue);
+  color: #fff;
+  display: flex;
+  gap: 15.5rem;
+  font-size: 16px;
+  padding: 7rem 7.5rem 5.5rem 5rem;
+}
+
+.sign-up h3 {
+  font-size: 32px;
+  margin-bottom: 1.5rem;
+}
+
+.sign-up-form input {
+  border: 1px solid #5c5c5c;
+  border-radius: 2.5px;
+  padding: 15px;
+  margin-bottom: 1rem;
+  text-indent: 0.5rem;
+  width: 30rem;
+}
+
+.sign-up-form input::placeholder {
+  font-size: 12px;
+  color: var(--lightgrey);
+}
+
+.sign-up-form .btn-get-started-free {
+  background-color: var(--brightblue);
+  border: 1px solid var(--brightblue);
+  border-radius: 2.5px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 15px 35px;
+}
 
 /* Attribution */
 .attribution {

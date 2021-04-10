@@ -30,14 +30,6 @@ button {
   font-weight: 700;
 }
 
-/* ### Headings, Call-to-actions, Header Navigation
-font-family: 'Raleway', sans-serif;
-- Weights: 400, 700
-
-### Body
-font-family: 'Open Sans', sans-serif;
-- Weights: 400 */
-
 /* Nav Bar */
 .nav {
   display: flex;
@@ -93,6 +85,13 @@ font-family: 'Open Sans', sans-serif;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
   border-radius: 2.5px;
   padding: 12px 60px;
+  transition: all 200ms ease-in-out;
+}
+
+.hero-form .btn-get-started:hover {
+  background-color: #769af8;
+  border: 1px solid #769af8;
+  cursor: pointer;
 }
 
 .hero-illustration {
@@ -125,11 +124,18 @@ font-family: 'Open Sans', sans-serif;
   border-bottom: 1px solid var(--moderatecyan);
   padding-bottom: 2.5px;
   margin-bottom: 2.5rem;
+  transition: all 200ms ease-in-out;
 }
 
 .fylo-link i {
   font-size: 14px;
   padding-left: 5px;
+}
+
+.fylo-link:hover {
+  cursor: pointer;
+  color: hsl(170, 60%, 60%);
+  border-bottom: 1px solid hsl(170, 60%, 60%);
 }
 
 .testimonial {
@@ -206,10 +212,16 @@ font-family: 'Open Sans', sans-serif;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
   color: #fff;
   padding: 15px 35px;
+  transition: all 200ms ease-in-out;
+}
+
+.sign-up-form .btn-get-started-free:hover {
+  background-color: #769af8;
+  border: 1px solid #769af8;
+  cursor: pointer;
 }
 
 /* Footer */
-
 .footer {
   background-color: var(--darkblue);
   color: #fff;
@@ -243,6 +255,12 @@ font-family: 'Open Sans', sans-serif;
 
 .pages .col > * {
   margin-bottom: 1rem;
+  transition: all 200ms ease-in-out;
+}
+
+.pages .col > *:hover {
+  color: #769af8;
+  cursor: pointer;
 }
 
 .social-media i {
@@ -250,8 +268,15 @@ font-family: 'Open Sans', sans-serif;
   border-radius: 50%;
   margin: 0 5px;
   padding: 6px;
+  transition: all 200ms ease-in-out;
   text-align: center;
   width: 30px;
+}
+
+.social-media i:hover {
+  border: 1px solid #769af8;
+  color: #769af8;
+  cursor: pointer;
 }
 
 /* Attribution */

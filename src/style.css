@@ -258,7 +258,7 @@ button {
 
 .contacts i {
   font-size: 18px;
-  padding-right: 0.5rem;
+  padding-right: 1rem;
 }
 
 .pages {
@@ -317,5 +317,156 @@ button {
   .footer {
     margin: 0 auto;
     width: 1440px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /* Nav Bar */
+  .nav {
+    padding: 1.5rem;
+  }
+
+  .nav img {
+    width: 75px;
+  }
+
+  .nav-items {
+    gap: 1.5rem;
+    font-size: 12px;
+  }
+
+  /* Hero Section */
+  .hero {
+    flex-direction: column-reverse;
+    padding: 3.5rem 2.5rem 9.5rem;
+  }
+
+  .hero-info h1 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-form {
+    margin-top: 2.5rem;
+    flex-direction: column;
+  }
+
+  .hero-form input {
+    width: 300px;
+  }
+
+  .hero-illustration {
+    width: 300px;
+  }
+
+  /* Features Section */
+  .features {
+    padding: 2.5rem 1.5rem 4.5rem;
+    flex-direction: column-reverse;
+  }
+
+  .features-info h2 {
+    font-size: 16px;
+  }
+
+  .features-info p {
+    color: var(--desaturatedblue);
+    font-size: 14px;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .fylo-link {
+    font-size: 12px;
+  }
+
+  .testimonial {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .testimonial-text {
+    font-size: 10px;
+    margin: 0.5rem 0 1rem;
+  }
+
+  .avatar img {
+    width: 25px;
+  }
+
+  .avatar-name {
+    font-size: 8px;
+  }
+
+  .avatar-job {
+    font-size: 6px;
+  }
+
+  .features-illustration {
+    width: 300px;
+  }
+
+  /* Sign Up Section */
+  .sign-up {
+    gap: 1.5rem;
+    font-size: 14px;
+    flex-direction: column;
+    padding: 3.5rem 3rem 4.5rem;
+  }
+
+  .sign-up h3 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+
+  .sign-up-form input {
+    padding: 9px;
+    margin-bottom: 0.5rem;
+    width: 248px;
+  }
+
+  .sign-up-form input::placeholder {
+    font-size: 10px;
+  }
+
+  .sign-up-form .btn-get-started-free {
+    font-size: 10px;
+    padding: 9px 75px;
+  }
+
+  .footer {
+    font-size: 14px;
+    padding: 3.5rem 2.5rem 2.5rem;
+    text-align: left;
+  }
+
+  .footer img {
+    width: 150px;
+  }
+
+  .footer-info {
+    gap: 2rem;
+    flex-direction: column;
+  }
+
+  .pages {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+
+  .social-media {
+    align-self: center;
+  }
+
+  /* Attribution */
+  .attribution {
+    margin-top: 1.5rem;
+    text-align: center;
   }
 }

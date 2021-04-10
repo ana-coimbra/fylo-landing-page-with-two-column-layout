@@ -40,7 +40,16 @@ button {
 .nav-items {
   display: flex;
   gap: 3.5rem;
+}
+
+.nav-items > * {
   font-family: "Raleway", sans-serif;
+  transition: all 200ms ease-in-out;
+}
+
+.nav-items > *:hover {
+  color: #769af8;
+  cursor: pointer;
 }
 
 /* Hero Section */
